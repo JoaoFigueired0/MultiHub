@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --corDeFundo: #F7F7F7;
-  --corConteudoPrincipal: #F1EFEF;
-  --corInput: #9F9F9F;
-  --bordaInput: #9F9F9F;
+  --corDeFundo: #f7f7f7;
+  --corConteudoPrincipal: #f1efef;
+  --corInput: #9f9f9f;
+  --bordaInput: #9f9f9f;
   --newCorInput: #c9c9c9;
   --newBordaInput: #989898;
-  --corBotao: #3B82F6;
-  --corBordaBotao: #1340B3;
+  --corBotao: #3b82f6;
+  --corBordaBotao: #1340b3;
   --corLetraBota: #052151;
-  --corInput: #D6DAD4;
+  --corInput: #d6dad4;
   --botaoHold: #3170d7;
   --corLetraBotaoHold: #061838;
-
 }
 
 * {
@@ -24,7 +23,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,10 +40,10 @@ main {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 5%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 25px;
 }
 
 section {
@@ -52,7 +51,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #F1EFEF;
+  background-color: #f1efef;
   border-radius: 8px;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
   padding: 15px;

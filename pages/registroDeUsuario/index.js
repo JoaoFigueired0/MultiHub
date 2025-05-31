@@ -11,18 +11,21 @@ function registroCadastro() {
 
   if (!valorNome || !valorEmail || !valorSenha || !valorConfirmaSenha) {
     console.log("Por favor, preencha todos os campos.");
+    return;
   }
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(valorEmail)) {
     console.log("E-mail inválido. Por favor, insira um e-mail válido.");
+    return;
   }
 
   if (valorSenha !== valorConfirmaSenha) {
     console.log("As senhas não coincidem.");
+    return;
   }
 
   localStorage.setItem('Email', valorEmail);
-  localStorage.setItem('password', valorSenha);
+  localStorage.setItem('Password', valorSenha);
 
   console.log("Cadastro realizado com sucesso!");
 
