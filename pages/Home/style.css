@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --corDeFundo: #f7f7f7;
+  --corConteudoPrincipal: #f1efef;
+  --corBotao: #3b82f6;
+  --corBordaBotao: #1340b3;
+  --corLetraBota: #052151;
+  --botaoHold: #3170d7;
+  --corLetraBotaoHold: #061838;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  width: 40em;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.divOutput {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+aside {
+  background-color: #e0e0e0;
+  width: 35px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10px;
+  position: static;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#buttonId {
+  padding: 5px 10px;
+  width: 200px;
+  height: 37px;
+  background-color: var(--corBotao);
+  color: var(--corLetraBota);
+  border: solid 1px var(--corBordaBotao);
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 30px;
+}
